@@ -1,7 +1,7 @@
 var myImage = document.querySelector('img');
 
 // Funcion al hacer click en objeto contenido en myImage
-myImage.onmouseover = function() {
+myImage.onclick = function() {
 	// Obtener el valor de
 	var mySrc = myImage.getAttribute('src');
 
